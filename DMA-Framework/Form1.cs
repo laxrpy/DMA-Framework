@@ -5,6 +5,7 @@ namespace DMA_Framework
         public Form1()
         {
             InitializeComponent();
+            DMA_Framework.Memory.Func.StartUp();
         }
     }
 }
